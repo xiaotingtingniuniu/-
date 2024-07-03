@@ -1,0 +1,9 @@
+# vscode 配置
+.vscode
+
+# 依赖
+node_modules
+package-lock.json
+
+# 打包结构分析报告
+report.html

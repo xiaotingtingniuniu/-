@@ -1,0 +1,73 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parserOptions": {
+    "parser": "babel-eslint"
+  },
+  "extends": ["plugin:vue/recommended", "eslint:recommended", "prettier"],
+  "plugins": ["vue", "prettier"],
+  "rules": {
+    "no-console": "off",
+    "no-debugger": "off",
+    "curly": "error",
+    "eqeqeq": ["error", "always"],
+    "no-global-assign": "error",
+    "no-labels": "error",
+    "no-multi-str": "error",
+    "comma-spacing": ["error", { "before": false, "after": true }],
+    "comma-style": ["error", "last"],
+    "comma-dangle": ["error", "always-multiline"],
+    "func-call-spacing": ["error", "never"],
+    "keyword-spacing": ["error", { "before": true }],
+    "linebreak-style": "off",
+    "no-multiple-empty-lines": ["error", { "max": 1 }],
+    "arrow-spacing": "error",
+    "arrow-parens": ["error", "as-needed"],
+    "no-var": "error",
+    "prefer-const": "error",
+    "no-unsafe-negation": "error",
+    "array-callback-return": "error",
+    "no-eval": "error",
+    "no-extend-native": "error",
+    "no-extra-label": "error",
+    "semi": ["error", "always", { "omitLastInOneLineBlock": false }],
+    "space-before-blocks": "error",
+    "space-in-parens": ["error", "never"],
+    "space-before-function-paren": [
+      "error",
+      {
+        "anonymous": "always",
+        "named": "never",
+        "asyncArrow": "always"
+      }
+    ],
+    "object-curly-spacing": ["error", "always"],
+    "space-unary-ops": "error",
+    "spaced-comment": ["error", "always"],
+    "arrow-body-style": ["error", "as-needed"],
+    "no-duplicate-imports": "error",
+    "no-useless-computed-key": "error",
+    "no-useless-rename": "error",
+    "rest-spread-spacing": ["error", "never"],
+    "no-trailing-spaces": "error",
+    "quotes": ["error", "single"],
+    "dot-notation": "off",
+    "import/order": "off",
+    "camelcase": "off",
+    "vue/max-attributes-per-line": "off",
+    "vue/component-name-in-template-casing": [
+      "error",
+      "kebab-case",
+      {
+        "ignores": []
+      }
+    ],
+    "vue/singleline-html-element-content-newline": "off"
+  },
+  "globals": {
+    "gio": "readonly"
+  }
+}
