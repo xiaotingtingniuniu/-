@@ -1,0 +1,32 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+#app {
+  height: 0 !important;
+}
+.cell-group-box {
+  margin-top: 1.17333rem;
+}
+.cell-group-box .van-field__control {
+    text-align: right;
+    font-size: 0.37333rem;
+    color: #969799;
+}
+.cell-group-box .optional {
+    margin-left: 0.44rem;
+    margin-bottom: 0.24rem;
+    margin-top: 0.41333rem;
+    height: 0.49333rem;
+    font-size: 0.34667rem;
+    color: #999999;
+    line-height: 0.49333rem;
+}
+.cell-group-box .van-field__label {
+    font-size: 0.42667rem;
+    color: #323233;
+}
+.cell-group-box .van-field__error-message {
+    text-align: right;
+}
+

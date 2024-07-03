@@ -1,0 +1,13 @@
+{
+  "accessoriesModule": {
+    "accessoriesList": "/yjl/shoppingCart/query",
+    "cartDeleteList":"/yjl/shoppingCart/delete",
+    "cartUpdateCount":"/yjl/shoppingCart/update",
+    "distributorList":"/yjl/order/noAuth/detail",
+    "createOrder":"/yjl/order/create",
+    "quotation":"/yjl/order/noAuth/quotation",
+    "sendEmail":"/knowledgeGraph/toc/part/sendEmail",
+    "createImg":"/yjl/order/createImg",
+    "getBanner":"/yjl/order/noAuth/getBanner"
+  }
+}

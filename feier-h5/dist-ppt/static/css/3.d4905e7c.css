@@ -1,0 +1,318 @@
+body[data-v-61dd7a3d] {
+  padding: 0;
+  margin: 0;
+}
+.header-box[data-v-61dd7a3d] {
+  height: 1.17333rem;
+}
+.header-box .van-nav-bar[data-v-61dd7a3d] {
+    line-height: 1.17333rem !important;
+    height: 1.17333rem !important;
+}
+.header-box .title[data-v-61dd7a3d] {
+    background-color: #B51A1A;
+}
+.header-box .title .van-nav-bar__title[data-v-61dd7a3d] {
+      font-size: 0.48rem;
+      color: #ffffff;
+}
+.header-box .title .van-nav-bar__left[data-v-61dd7a3d],
+    .header-box .title .van-nav-bar__right[data-v-61dd7a3d] {
+      color: #ffffff;
+      font-size: 0;
+}
+.header-box .title .van-nav-bar__left .van-nav-bar__text[data-v-61dd7a3d],
+      .header-box .title .van-nav-bar__right .van-nav-bar__text[data-v-61dd7a3d] {
+        color: #fff;
+        font-size: 0.42667rem;
+        font-weight: 500;
+        background-color: #B51A1A;
+}
+.header-box .title .van-nav-bar__left .van-icon-arrow-left[data-v-61dd7a3d],
+      .header-box .title .van-nav-bar__right .van-icon-arrow-left[data-v-61dd7a3d] {
+        color: #fff;
+        font-size: 0.42667rem;
+        width: 0.24rem;
+}
+.header-box .title .van-nav-bar__left .van-icon-arrow-left[data-v-61dd7a3d]::before,
+        .header-box .title .van-nav-bar__right .van-icon-arrow-left[data-v-61dd7a3d]::before {
+          width: 0.24rem;
+          height: 0.46667rem;
+}
+.header-box .title .van-nav-bar__left .van-nav-bar__text[data-v-61dd7a3d] {
+      margin: 0;
+      margin-left: 0.06667rem;
+      padding: 0;
+}
+
+.van-submit-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  background-color: #fff;
+  -webkit-user-select: none;
+          user-select: none;
+}
+.van-submit-bar__tip {
+  padding: 10px;
+  color: #f56723;
+  font-size: 12px;
+  line-height: 1.5;
+  background-color: #fff7cc;
+}
+.van-submit-bar__tip-icon {
+  min-width: 18px;
+  font-size: 12px;
+  vertical-align: middle;
+}
+.van-submit-bar__tip-text {
+  vertical-align: middle;
+}
+.van-submit-bar__bar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+  height: 50px;
+  font-size: 14px;
+}
+.van-submit-bar__text {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  padding-right: 12px;
+  color: #111;
+  font-weight: 500;
+  text-align: right;
+}
+.van-submit-bar__text span {
+  display: inline-block;
+}
+.van-submit-bar__suffix-label {
+  margin-left: 5px;
+}
+.van-submit-bar__price {
+  color: #f44;
+  font-size: 18px;
+}
+.van-submit-bar__price::first-letter {
+  font-size: 14px;
+}
+.van-submit-bar__button {
+  width: 110px;
+}
+.van-submit-bar--safe-area-inset-bottom {
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.van-checkbox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  overflow: hidden;
+  -webkit-user-select: none;
+          user-select: none;
+}
+.van-checkbox__icon {
+  -webkit-box-flex: 0;
+  -webkit-flex: none;
+          flex: none;
+  height: 1em;
+  font-size: 20px;
+  line-height: 1em;
+}
+.van-checkbox__icon .van-icon {
+  display: block;
+  box-sizing: border-box;
+  width: 1.25em;
+  height: 1.25em;
+  color: transparent;
+  font-size: 0.8em;
+  line-height: inherit;
+  text-align: center;
+  border: 1px solid #e5e5e5;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.van-checkbox__icon--round .van-icon {
+  border-radius: 100%;
+}
+.van-checkbox__icon--checked .van-icon {
+  color: #fff;
+  background-color: #1989fa;
+  border-color: #1989fa;
+}
+.van-checkbox__icon--disabled .van-icon {
+  background-color: #ebedf0;
+  border-color: #c8c9cc;
+}
+.van-checkbox__icon--disabled.van-checkbox__icon--checked .van-icon {
+  color: #c8c9cc;
+}
+.van-checkbox__label {
+  margin-left: 10px;
+  color: #111;
+  line-height: 20px;
+}
+.van-checkbox__label--left {
+  margin: 0 10px 0 0;
+}
+.van-checkbox__label--disabled {
+  color: #c8c9cc;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+.foot_submit_bar {
+    bottom: 0.26667rem !important;
+    padding-bottom: env(safe-area-inset-bottom);
+}
+}
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
+.foot_submit_bar {
+    bottom: 0.26667rem !important;
+    padding-bottom: env(safe-area-inset-bottom);
+}
+}
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+.foot_submit_bar {
+    bottom: 0.26667rem !important;
+    padding-bottom: env(safe-area-inset-bottom);
+}
+}
+.foot_submit_bar .van-submit-bar__bar {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 1.6rem;
+}
+.foot_submit_bar .foot_checkboox {
+  padding-left: 0.64rem;
+  font-size: 0.42667rem;
+}
+.foot_submit_bar .foot_checkboox .van-checkbox__icon {
+    font-size: 0.46667rem !important;
+}
+.foot_submit_bar .foot_checkboox .van-checkbox__icon .van-icon-success:before {
+      width: 0.46667rem;
+      height: 0.46667rem;
+}
+.foot_submit_bar .foot_checkboox .van-checkbox__label {
+    color: #676767;
+    font-size: 0.42667rem;
+}
+.foot_submit_bar .van-submit-bar__button {
+  background-color: #fff;
+  color: #B51A1A;
+  width: 2.93333rem;
+  height: 0.96rem;
+  line-height: 0.96rem;
+  border-radius: 0.05333rem;
+  border: 0.02667rem solid #b51a1a;
+  margin-right: 0.64rem;
+  font-size: 0.42667rem;
+}
+.foot_button_box {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 10rem;
+  height: 1.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fff;
+}
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+.foot_button_box {
+      bottom: 0.26667rem !important;
+      padding-bottom: env(safe-area-inset-bottom);
+}
+}
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
+.foot_button_box {
+      bottom: 0.26667rem !important;
+      padding-bottom: env(safe-area-inset-bottom);
+}
+}
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+.foot_button_box {
+      bottom: 0.26667rem !important;
+      padding-bottom: env(safe-area-inset-bottom);
+}
+}
+.foot_button_box .foot_button {
+    width: 9.14667rem;
+    height: 1.17333rem;
+    line-height: 1.17333rem;
+    background-color: #B51A1A;
+    border: #B51A1A;
+    border-radius: 0.05333rem;
+    margin-top: 0.21333rem;
+    font-size: 0.48rem;
+}
+.foot_button_box .foot_button.next {
+      background: rgba(181, 26, 26, 0.5);
+      color: rgba(255, 255, 255, 0.5);
+}
+.foot_button_box .send_box {
+    width: 100%;
+    padding-left: 0.36rem;
+    font-size: 0;
+}
+.foot_button_box .share_box,
+  .foot_button_box .screenshot_box {
+    display: inline-block;
+    vertical-align: top;
+}
+.foot_button_box .share_box div,
+    .foot_button_box .screenshot_box div {
+      font-size: 0.32rem;
+      width: 1.6rem;
+      text-align: center;
+}
+.foot_button_box .share_box {
+    margin-top: 0.29333rem;
+    text-align: center;
+}
+.foot_button_box .share_box img {
+      width: 0.49333rem;
+      margin-bottom: 0.17333rem;
+}
+.foot_button_box .screenshot_box {
+    margin-top: 0.26667rem;
+    text-align: center;
+}
+.foot_button_box .screenshot_box img {
+      width: 0.57333rem;
+      margin-bottom: 0.13333rem;
+}
+.foot_button_box .send {
+    vertical-align: top;
+    width: 5.33333rem;
+    height: 1.17333rem;
+    background-color: #B51A1A;
+    border: #B51A1A;
+    border-radius: 0.05333rem;
+    margin-left: 0.52rem;
+    margin-top: 0.21333rem;
+    font-size: 0.48rem;
+}
+
